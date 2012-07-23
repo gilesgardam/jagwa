@@ -1,7 +1,7 @@
 import doctest
 def dot_graph(nodes, edges, multigraph=False):
     """
-    Print the graph as a DOT file.
+    Return the graph as a DOT file format string.
 
     Think of this as a very thin wrapper around the actual DOT output.
     Each 'node' can be an arbitrary (hashable) Python objects.
